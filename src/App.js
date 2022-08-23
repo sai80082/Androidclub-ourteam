@@ -7,7 +7,7 @@ function App() {
         <h1 className=" text-white text-center text-5xl font-bold">Our Team</h1>
         {imag.map((ele) => {
           return (
-            <div className="rounded-[18px] bg-white m-20 w-40">
+            <div className="rounded-[18px] bg-white m-20 w-[525px] p-8">
               <div className="container mx-auto gap-1">
                 <img
                   src={ele.img}
@@ -34,7 +34,7 @@ function App() {
         {alu.map((ele) => {
           return (
             <>
-              <div className="rounded-[18px] bg-white m-20 w-40">
+              <div className="rounded-[18px] bg-white m-20 w-1/3 p-8">
                 <img
                   src={ele.img}
                   alt="this is image"
